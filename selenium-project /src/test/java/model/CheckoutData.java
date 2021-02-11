@@ -40,7 +40,6 @@ public class CheckoutData {
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", zioCode='" + zipCode + '\'' +
-
                 '}';
     }
 
@@ -48,6 +47,4 @@ public class CheckoutData {
     public int hashCode() {
         return Objects.hash(firstName, lastName, zipCode);
     }
-
-
 }

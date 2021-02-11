@@ -9,7 +9,7 @@ import java.io.Writer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CheckoutDataGenerator {  // TODO: fix out of bound Exception 
+public class CheckoutDataGenerator {  // TODO: fix out of bound Exception
     public static void main(String[] args) throws IOException {
         int count = Integer.parseInt(args[0]);
         File file = new File(args[1]);

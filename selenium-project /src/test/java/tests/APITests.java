@@ -15,7 +15,6 @@ public class APITests {
                 .then().assertThat().statusCode(200);
     }
 
-
     @Test
     public void verifyURLContentType() {
         given().when().get(baseUrl + endpoint)

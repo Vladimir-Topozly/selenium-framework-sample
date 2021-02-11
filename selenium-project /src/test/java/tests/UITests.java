@@ -3,7 +3,6 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobjects.CartPage;
-import pageobjects.CheckoutPage;
 
 public class UITests extends TestBase {
 
@@ -55,7 +54,7 @@ public class UITests extends TestBase {
 
         app.getMainPage().addToCart();
 
-        cartPage =  app.openCart();
+        cartPage = app.openCart();
 
         int itemsCountBefore = cartPage.getCartItems().size();
 
@@ -70,7 +69,6 @@ public class UITests extends TestBase {
 
     @Test()
     public void paceOrderTest() {
-        CheckoutPage checkoutPage;
         app.getMainPage().addToCart();
 
         app.openCart();
