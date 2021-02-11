@@ -13,7 +13,6 @@ import java.util.concurrent.TimeUnit;
 public class ApplicationManager {
     private WebDriver driver;
     private String browser;
-    private DemoLogInPage logInPage;
     private MainPage mainPage;
     private CartPage cartPage;
     private ItemPage itemPage;
@@ -41,7 +40,7 @@ public class ApplicationManager {
 
         driver.manage().window().maximize();
 
-        logInPage = new DemoLogInPage(driver);
+        DemoLogInPage logInPage = new DemoLogInPage(driver);
 
         mainPage = new MainPage(driver);
 
