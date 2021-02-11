@@ -1,6 +1,5 @@
 package pageobjects;
 
-import application_manager.ApplicationManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import tests.TestBase;

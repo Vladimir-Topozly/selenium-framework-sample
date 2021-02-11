@@ -2,21 +2,20 @@ package tests;
 
 import application_manager.ApplicationManager;
 import org.openqa.selenium.remote.BrowserType;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 public class TestBase {
 
-    private static ApplicationManager app =
+    static ApplicationManager app =
             new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
 
-    @BeforeSuite(alwaysRun = true)    // annotation for TestNG framework
+    @BeforeMethod(alwaysRun = true)
     public void setUp() {
         app.start();
-
     }
 
-    @AfterSuite(alwaysRun = true)
+    @AfterMethod(alwaysRun = true)
     public void tearDown() {
         app.cleanUp();
         app.stop();
