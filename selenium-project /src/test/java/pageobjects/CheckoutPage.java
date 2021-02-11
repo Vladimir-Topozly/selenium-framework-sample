@@ -25,7 +25,6 @@ public class CheckoutPage extends PageBase {
     private WebElement header;
 
 
-
     public CheckoutPage(WebDriver driver) {
         super(driver);
     }

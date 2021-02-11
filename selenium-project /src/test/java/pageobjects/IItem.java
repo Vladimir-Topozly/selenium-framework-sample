@@ -1,6 +1,5 @@
 package pageobjects;
 
 public interface IItem {
-
-    public void addToCart();
+    void addToCart();
 }

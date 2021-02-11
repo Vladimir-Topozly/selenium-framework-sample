@@ -65,7 +65,7 @@ public class ApplicationManager {
         return new CartPage(this.driver);
     }
 
-    public void refresh(){
+    public void refresh() {
         driver.navigate().refresh();
     }
 
@@ -79,10 +79,6 @@ public class ApplicationManager {
 
     public void cleanUp() {
         driver.manage().deleteAllCookies();
-    }
-
-    public DemoLogInPage getLogInPage() {
-        return logInPage;
     }
 
     public MainPage getMainPage() {
