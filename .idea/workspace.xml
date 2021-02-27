@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22204d96-0a4f-44ce-85bc-7a4bf9b4eee2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/application_manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/generator/CheckoutDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/generator/CheckoutDataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/helper/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/helper/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/model/CheckoutData.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/model/CheckoutData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/pageobjects/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/pageobjects/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/CheckoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/pageobjects/DemoLogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/DemoLogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/pageobjects/IItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/IItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/pageobjects/ItemPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/ItemPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/pageobjects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/pageobjects/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/PageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/pageobjects/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/PageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/tests/APITests.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/test/java/api/APITests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/test/java/ui/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/tests/UITests.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/test/java/ui/UITests.java" afterDir="false" />
-    </list>
+    <list default="true" id="22204d96-0a4f-44ce-85bc-7a4bf9b4eee2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/selenium-project /.gradle/" />
     <ignored path="$PROJECT_DIR$/selenium-project /build/" />
     <ignored path="$PROJECT_DIR$/selenium-project /out/" />
@@ -95,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/PageObject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -290,7 +273,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614425996065" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614426210525" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_172" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -475,15 +458,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UITests_paceOrderTest - 2021.02.11 at 15h 33m 38s.xml">
-      <configuration name="UITests.paceOrderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UITests_paceOrderTest - 2021.02.11 at 15h 50m 16s.xml">
-      <configuration name="UITests.paceOrderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UITests_paceOrderTest - 2021.02.11 at 15h 53m 38s.xml">
-      <configuration name="UITests.paceOrderTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="UITests_paceOrderTest - 2021.02.11 at 15h 55m 03s.xml">
       <configuration name="UITests.paceOrderTest" configurationId="TestNG" />
     </history-entry>
@@ -505,11 +479,20 @@
     <history-entry file="UITests_paceOrderTest_(1) - 2021.02.11 at 16h 42m 12s.xml">
       <configuration name="UITests.paceOrderTest (1)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="UITests_SuccessfulLogInTest - 2021.02.27 at 13h 37m 46s.xml">
+      <configuration name="UITests.SuccessfulLogInTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UITests_SuccessfulLogInTest - 2021.02.27 at 13h 38m 19s.xml">
+      <configuration name="UITests.SuccessfulLogInTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UITests - 2021.02.27 at 13h 38m 55s.xml">
+      <configuration name="UITests" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -518,12 +501,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44520548" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44520548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" />
@@ -721,7 +704,7 @@
     <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/PageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
