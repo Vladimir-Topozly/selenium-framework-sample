@@ -1,4 +1,4 @@
-package tests;
+package ui;
 
 import application_manager.ApplicationManager;
 import org.openqa.selenium.remote.BrowserType;
