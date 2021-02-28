@@ -1,5 +1,5 @@
 package application_manager;
 
 public enum DriverType {
-    CHROME, FIREXOX, IE;
+    CHROME, FIREFOX, IE
 }

@@ -1,14 +1,14 @@
 package application_manager;
 
-public class DriverManagerFactory {
-    public static DriverManager getDriverManager(DriverType type) {
-        DriverManager driverManager;
+class DriverManagerFactory {
+    public static WebDriverManager getDriverManager(DriverType type) {
+        WebDriverManager driverManager;
 
         switch (type) {
             case IE:
                 driverManager = new IEDriverManager();
                 break;
-            case FIREXOX:
+            case FIREFOX:
                 driverManager = new FirefoxDriverManager();
                 break;
             default:

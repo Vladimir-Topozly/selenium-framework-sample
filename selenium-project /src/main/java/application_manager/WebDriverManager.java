@@ -2,12 +2,12 @@ package application_manager;
 
 import org.openqa.selenium.WebDriver;
 
-public abstract class DriverManager {
+public abstract class WebDriverManager {
     protected WebDriver driver;
 
     protected abstract void createWebDriver();
 
-    public void quitDriver() {
+    void quitDriver() {
         if (null != driver) {
             driver.quit();
             driver = null;

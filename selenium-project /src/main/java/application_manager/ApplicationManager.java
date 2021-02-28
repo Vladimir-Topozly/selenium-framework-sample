@@ -1,91 +1,56 @@
 package application_manager;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.remote.BrowserType;
 import pageobjects.*;
 
-import java.util.concurrent.TimeUnit;
-
 public class ApplicationManager {
-    //    DriverManager driverManager; // TODO: figure out how to make this work
-    private WebDriver driver;
-    private String browser;
+    private DriversManager driversManager = new DriversManager();
     private MainPage mainPage;
     private CartPage cartPage;
     private ItemPage itemPage;
     private CheckoutPage checkoutPage;
-        public String baseUrl = "https://www.saucedemo.com/";
-
-
-    public WebDriver getDriver() {
-        return driver;
-    }
-
-    public ApplicationManager(String browser) {
-        this.browser = browser;
-    }
+    public String baseUrl = "https://www.saucedemo.com/";
 
     public void start() {
+        driversManager = new DriversManager();
 
-//        driverManager = DriverManagerFactory.getDriverManager(DriverType.CHROME);
-//        driver = driverManager.getDriver();
+        driversManager.startDriver();
 
-        switch (browser) {
-            case BrowserType.CHROME:
-                driver = new ChromeDriver();
-                break;
-            case (BrowserType.FIREFOX):
-                driver = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
-                break;
-            case BrowserType.IE:  //TODO: add internet explorer driver to /opt/tools
-                driver = new InternetExplorerDriver();
-                break;
-        }
+        mainPage = new MainPage(driversManager.driver);
 
-        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        cartPage = new CartPage(driversManager.driver);
 
-        driver.manage().window().maximize();
+        itemPage = new ItemPage(driversManager.driver);
 
-        mainPage = new MainPage(driver);
-
-        cartPage = new CartPage(driver);
-
-        itemPage = new ItemPage(driver);
-
-        checkoutPage = new CheckoutPage(driver);
+        checkoutPage = new CheckoutPage(driversManager.driver);
 
         navigateTo(baseUrl);
 
-        new DemoLogInPage(driver).LogIn("standard_user", "secret_sauce");
+        new DemoLogInPage(driversManager.driver).LogIn("standard_user", "secret_sauce");
+    }
+
+    public void stop() {
+        driversManager.stopDriver();
     }
 
     private void navigateTo(String url) {
-        driver.get(url);
+        driversManager.driver.get(url);
+    }
+
+    public void refresh() {
+        driversManager.driver.navigate().refresh();
     }
 
     public CartPage openCart() {
         mainPage.cartButton.click();
-        return new CartPage(this.driver);
-    }
-
-    public void refresh() {
-        driver.navigate().refresh();
-    }
-
-    public void stop() {
-        driver.quit();
+        return new CartPage(this.driversManager.driver);
     }
 
     public String getURL() {
-        return driver.getCurrentUrl();
+        return driversManager.driver.getCurrentUrl();
     }
 
     public void cleanUp() {
-        driver.manage().deleteAllCookies();
+        driversManager.driver.manage().deleteAllCookies();
     }
 
     public MainPage getMainPage() {
