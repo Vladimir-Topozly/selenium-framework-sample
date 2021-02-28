@@ -11,19 +11,29 @@ import pageobjects.*;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
+    //    DriverManager driverManager; // TODO: figure out how to make this work
     private WebDriver driver;
     private String browser;
     private MainPage mainPage;
     private CartPage cartPage;
     private ItemPage itemPage;
     private CheckoutPage checkoutPage;
-    public String baseUrl = "https://www.saucedemo.com/";
+        public String baseUrl = "https://www.saucedemo.com/";
+
+
+    public WebDriver getDriver() {
+        return driver;
+    }
 
     public ApplicationManager(String browser) {
         this.browser = browser;
     }
 
     public void start() {
+
+//        driverManager = DriverManagerFactory.getDriverManager(DriverType.CHROME);
+//        driver = driverManager.getDriver();
+
         switch (browser) {
             case BrowserType.CHROME:
                 driver = new ChromeDriver();
@@ -40,8 +50,6 @@ public class ApplicationManager {
 
         driver.manage().window().maximize();
 
-        DemoLogInPage logInPage = new DemoLogInPage(driver);
-
         mainPage = new MainPage(driver);
 
         cartPage = new CartPage(driver);
@@ -52,7 +60,7 @@ public class ApplicationManager {
 
         navigateTo(baseUrl);
 
-        logInPage.LogIn("standard_user", "secret_sauce");
+        new DemoLogInPage(driver).LogIn("standard_user", "secret_sauce");
     }
 
     private void navigateTo(String url) {

@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class DemoLogInPage extends PageBase {
-    @FindBy(css = "#user-name")
+    @FindBy(id = "user-name")
     private WebElement userNameTextBox;
 
     @FindBy(css = "#password")
