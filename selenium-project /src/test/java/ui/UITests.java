@@ -19,7 +19,7 @@ public class UITests extends TestBase {
 
         String url = app.getURL();
 
-        Assert.assertEquals(url, app.baseUrl + "index.html");
+        Assert.assertEquals(url, app.baseUrl);
     }
 
     @Test()

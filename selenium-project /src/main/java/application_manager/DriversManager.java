@@ -15,7 +15,7 @@ class DriversManager {
         driver.manage().window().maximize();
     }
 
-    void stopDriver(){
+    void stopDriver() {
         driverManager.quitDriver();
     }
 }

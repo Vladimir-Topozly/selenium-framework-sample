@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22204d96-0a4f-44ce-85bc-7a4bf9b4eee2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/api/TestRailAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /out/production/classes/api/TestRailAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/ChromeDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/ChromeDriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/DriverManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/DriverManagerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/DriverManagerFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/FirefoxDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/FirefoxDriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/IEDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/IEDriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/test/classes/ui/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /out/test/classes/ui/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/api/TestRailAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/api/TestRailAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/ChromeDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/ChromeDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/WebDriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriverManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriverManagerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriverType.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriverType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/FirefoxDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/FirefoxDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/IEDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/IEDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/ui/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/test/java/ui/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriversManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriversManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/selenium-project /.gradle/" />
     <ignored path="$PROJECT_DIR$/selenium-project /build/" />
@@ -50,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="-458">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#2337#2338#0" expanded="true" />
                 <element signature="e#2387#2388#0" expanded="true" />
@@ -72,67 +56,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/FirefoxDriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/IEDriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriversManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="79" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="79" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriverManagerFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/WebDriverManager.java">
+        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriverManagerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="290">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/ChromeDriverManager.java">
+        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/WebDriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="91">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -140,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="136">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#562#563#0" expanded="true" />
                 <element signature="e#589#590#0" expanded="true" />
@@ -216,11 +165,11 @@
         <option value="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/DemoLogInPage.java" />
         <option value="$PROJECT_DIR$/selenium-project /src/test/java/ui/UITests.java" />
         <option value="$PROJECT_DIR$/selenium-project /src/test/java/ui/TestBase.java" />
-        <option value="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriversManager.java" />
         <option value="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/WebDriverManager.java" />
         <option value="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriverType.java" />
-        <option value="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriverManagerFactory.java" />
         <option value="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriversManager.java" />
+        <option value="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriverManagerFactory.java" />
       </list>
     </option>
   </component>
@@ -339,7 +288,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614549493973" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614549863643" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_172" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -569,7 +518,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32876712" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32876712" />
@@ -818,17 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/UITests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -836,10 +774,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriverManagerFactory.java">
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/IEDriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriversManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/FirefoxDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriverType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-458">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#2337#2338#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2424#2425#0" expanded="true" />
+            <element signature="e#2455#2456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -854,59 +844,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="e#2337#2338#0" expanded="true" />
-            <element signature="e#2387#2388#0" expanded="true" />
-            <element signature="e#2424#2425#0" expanded="true" />
-            <element signature="e#2455#2456#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriversManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="79" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriverType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/FirefoxDriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/IEDriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/WebDriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="91">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriverManagerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>
