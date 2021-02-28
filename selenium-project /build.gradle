@@ -16,4 +16,5 @@ dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-7'
     implementation 'org.testng:testng:7.3.0'
     testCompile 'io.rest-assured:rest-assured:3.0.2'
+    compile 'com.googlecode.json-simple:json-simple:1.1.1'
 }

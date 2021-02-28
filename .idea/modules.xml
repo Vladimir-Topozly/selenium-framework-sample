@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium-framework-sample.selenium-project_.main.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium-framework-sample.selenium-project_.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium-framework-sample.selenium-project_.test.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium-framework-sample.selenium-project_.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium-project .iml" filepath="$PROJECT_DIR$/.idea/modules/selenium-project .iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium-project .selenium-framework-sample.selenium-project_.main.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium-project .selenium-framework-sample.selenium-project_.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium-project .selenium-framework-sample.selenium-project_.test.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium-project .selenium-framework-sample.selenium-project_.test.iml" />
     </modules>
   </component>
 </project>
