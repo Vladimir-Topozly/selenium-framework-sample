@@ -4,7 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import ui.pageobjects.CartPage;
 import ui.pageobjects.MainPage;
-import utils.UIHelper;
 
 public class RemoveItemTest extends TestBase {
     @Test()
@@ -20,7 +19,7 @@ public class RemoveItemTest extends TestBase {
 
         cartPage.removeItem();
 
-        new UIHelper().refresh();
+        uiHelper.refresh();
 
         int itemsCountAfter = cartPage.getCartItems().size();
 

@@ -10,6 +10,6 @@ public class LogInTest extends TestBase {
 
         String url = uiHelper.getURL();
 
-        Assert.assertEquals(url,baseUrl + "inventory.html");
+        Assert.assertEquals(url, baseUrl + "inventory.html");
     }
 }

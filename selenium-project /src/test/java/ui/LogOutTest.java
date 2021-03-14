@@ -9,6 +9,7 @@ public class LogOutTest extends TestBase {
     @Test()
     public void LogOut() {
         MainPage mainPage = new MainPage(driver);
+
         mainPage.LogOut();
 
         String url = uiHelper.getURL();

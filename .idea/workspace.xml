@@ -2,51 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22204d96-0a4f-44ce-85bc-7a4bf9b4eee2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/selenium-project /src/main/java/manager/ApplicationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium-project /src/main/java/ui/pageobjects/PageBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/ApplicationManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/ChromeDriverManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/DriverManagerFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/DriverManagerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/DriverType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/DriversManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/FirefoxDriverManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/IEDriverManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/application_manager/WebDriverManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/helper/HelperBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/pageobjects/CartPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/pageobjects/CheckoutPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/pageobjects/DemoLogInPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/pageobjects/IItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/pageobjects/ItemPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/pageobjects/MainPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/pageobjects/PageBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/pageobjects/PageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/manager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /out/production/classes/manager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/manager/DriversManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /out/production/classes/manager/DriversManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project /out/production/classes/utils/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /out/production/classes/utils/HelperBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project /out/test/classes/ui/LogOutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /out/test/classes/ui/LogOutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project /out/test/classes/ui/RemoveItemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /out/test/classes/ui/RemoveItemTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium-project /out/test/classes/ui/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /out/test/classes/ui/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /out/test/classes/ui/UITests.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /out/test/classes/ui/UITests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/ApplicationManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/ChromeDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/manager/ChromeDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriverManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/manager/DriverManagerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriverType.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/manager/DriverType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriversManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/manager/DriversManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/FirefoxDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/manager/FirefoxDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/IEDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/manager/IEDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/manager/WebDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/helper/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/utils/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/ui/pageobjects/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/ui/pageobjects/CheckoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/DemoLogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/ui/pageobjects/DemoLogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/IItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/ui/pageobjects/IItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/ItemPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/ui/pageobjects/ItemPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/ui/pageobjects/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/PageBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/pageobjects/PageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project /out/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /out/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/manager/ApplicationManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/manager/DriversManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/manager/DriversManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/utils/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/utils/ui/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project /src/main/java/utils/UIHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/main/java/utils/ui/UIHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/ui/LogOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/test/java/ui/LogOutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/ui/PlaceOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/test/java/ui/PlaceOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/ui/RemoveItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/test/java/ui/RemoveItemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/ui/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/test/java/ui/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/ui/UITests.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/test/java/ui/UITests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/java/ui/UITests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-project /src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-project /src/test/resources/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/selenium-project /.gradle/" />
     <ignored path="$PROJECT_DIR$/selenium-project /build/" />
@@ -75,19 +48,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/ApplicationManager.java">
+        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/ChromeDriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="90" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="90" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#226#227#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/ChromeDriverManager.java">
+        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/WebDriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="38" />
+            <state relative-caret-position="111">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -95,10 +71,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/DriversManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
                 <element signature="e#666#667#0" expanded="true" />
                 <element signature="e#708#709#0" expanded="true" />
               </folding>
@@ -107,63 +85,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/utils/HelperBase.java">
+        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/utils/ui/HelperBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="150">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/FirefoxDriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/IEDriverManager.java">
+        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/utils/ui/UIHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/WebDriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/DriverManagerFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/DriverType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="23" />
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <marker date="1615742599280" expanded="true" signature="131:200" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,11 +117,54 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/RemoveItemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/PlaceOrderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/ui/steps/LogIn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenium-project /src/test/resources/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -202,9 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/selenium-project /src/test/java/pageobjects/ItemPage.java" />
-        <option value="$PROJECT_DIR$/selenium-project /src/test/resources/testng.xml" />
-        <option value="$PROJECT_DIR$/selenium-project /src/test/java/tests/APITests.java" />
         <option value="$PROJECT_DIR$/selenium-project /src/test/java/model/CheckoutData.java" />
         <option value="$PROJECT_DIR$/selenium-project /src/test/java/tests/UITests.java" />
         <option value="$PROJECT_DIR$/selenium-project /src/test/java/application_manager/ApplicationManager.java" />
@@ -241,18 +227,21 @@
         <option value="$PROJECT_DIR$/selenium-project /src/test/java/ui/LogInTest.java" />
         <option value="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/selenium-project /src/main/java/application_manager/DriversManager.java" />
-        <option value="$PROJECT_DIR$/selenium-project /src/main/java/manager/DriversManager.java" />
         <option value="$PROJECT_DIR$/selenium-project /src/test/java/ui/UITests.java" />
         <option value="$PROJECT_DIR$/selenium-project /src/main/java/ui/steps/LogIn.java" />
         <option value="$PROJECT_DIR$/selenium-project /src/main/java/manager/WebDriverManager.java" />
-        <option value="$PROJECT_DIR$/selenium-project /src/test/java/ui/TestBase.java" />
         <option value="$PROJECT_DIR$/selenium-project /src/test/java/ui/AddItemTest.java" />
         <option value="$PROJECT_DIR$/selenium-project /src/test/java/ui/AddItemToCartFromItemPageTest.java" />
-        <option value="$PROJECT_DIR$/selenium-project /src/test/java/ui/LogOutTest.java" />
-        <option value="$PROJECT_DIR$/selenium-project /src/test/java/ui/PlaceOrderTest.java" />
-        <option value="$PROJECT_DIR$/selenium-project /src/test/java/ui/RemoveItemTest.java" />
-        <option value="$PROJECT_DIR$/selenium-project /src/main/java/utils/HelperBase.java" />
         <option value="$PROJECT_DIR$/selenium-project /src/main/java/manager/DriverManagerFactory.java" />
+        <option value="$PROJECT_DIR$/selenium-project /src/main/java/manager/DriversManager.java" />
+        <option value="$PROJECT_DIR$/selenium-project /src/test/java/ui/LogOutTest.java" />
+        <option value="$PROJECT_DIR$/selenium-project /src/main/java/utils/HelperBase.java" />
+        <option value="$PROJECT_DIR$/selenium-project /src/test/java/ui/RemoveItemTest.java" />
+        <option value="$PROJECT_DIR$/selenium-project /src/test/java/ui/TestBase.java" />
+        <option value="$PROJECT_DIR$/selenium-project /src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/selenium-project /src/main/java/manager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/selenium-project /src/main/java/utils/ui/HelperBase.java" />
+        <option value="$PROJECT_DIR$/selenium-project /src/test/java/ui/PlaceOrderTest.java" />
       </list>
     </option>
   </component>
@@ -309,24 +298,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium-framework-sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium-framework-sample" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium-project " type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium-framework-sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium-framework-sample" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium-project " type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="manager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -345,18 +316,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium-framework-sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium-framework-sample" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium-project " type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selenium-framework-sample" type="b2602c69:ProjectViewProjectNode" />
@@ -366,6 +326,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selenium-framework-sample" type="b2602c69:ProjectViewProjectNode" />
@@ -381,15 +342,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium-framework-sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium-framework-sample" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium-project " type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selenium-framework-sample" type="b2602c69:ProjectViewProjectNode" />
@@ -399,6 +351,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-framework-sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-framework-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-project " type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -409,7 +369,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615741389730" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615742840965" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_172" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -442,60 +402,6 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.LogOutTest">
-    <configuration name="AddItemTest.addItemToCartFromMainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-framework-sample.selenium-project_.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ui" />
-      <option name="MAIN_CLASS_NAME" value="ui.AddItemTest" />
-      <option name="METHOD_NAME" value="addItemToCartFromMainPageTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddItemToCartFromItemPageTest.addItemToCartFromItemPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-framework-sample.selenium-project_.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ui" />
-      <option name="MAIN_CLASS_NAME" value="ui.AddItemToCartFromItemPageTest" />
-      <option name="METHOD_NAME" value="addItemToCartFromItemPage" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LogInTest.SuccessfulLogInTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-framework-sample.selenium-project_.test" />
       <extension name="coverage">
@@ -567,20 +473,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveItemTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-framework-sample.selenium-project_.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.RemoveItemTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ui" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-framework-sample.selenium-project_.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.AddItemTest.addItemToCartFromMainPageTest" />
-      <item itemvalue="TestNG.AddItemToCartFromItemPageTest.addItemToCartFromItemPage" />
       <item itemvalue="TestNG.LogInTest.SuccessfulLogInTest" />
       <item itemvalue="TestNG.LogOutTest.LogOut" />
       <item itemvalue="TestNG.LogOutTest" />
+      <item itemvalue="TestNG.ui" />
+      <item itemvalue="TestNG.RemoveItemTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LogOutTest" />
+        <item itemvalue="TestNG.ui" />
+        <item itemvalue="TestNG.RemoveItemTest" />
         <item itemvalue="TestNG.LogOutTest.LogOut" />
         <item itemvalue="TestNG.LogInTest.SuccessfulLogInTest" />
-        <item itemvalue="TestNG.AddItemToCartFromItemPageTest.addItemToCartFromItemPage" />
-        <item itemvalue="TestNG.AddItemTest.addItemToCartFromMainPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -598,34 +552,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddItemTest_addItemToCartFromMainPageTest - 2021.03.14 at 18h 52m 13s.xml">
-      <configuration name="AddItemTest.addItemToCartFromMainPageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddItemTest_addItemToCartFromMainPageTest - 2021.03.14 at 18h 53m 04s.xml">
-      <configuration name="AddItemTest.addItemToCartFromMainPageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddItemTest_addItemToCartFromMainPageTest - 2021.03.14 at 18h 53m 57s.xml">
-      <configuration name="AddItemTest.addItemToCartFromMainPageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddItemTest_addItemToCartFromMainPageTest - 2021.03.14 at 18h 54m 20s.xml">
-      <configuration name="AddItemTest.addItemToCartFromMainPageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddItemToCartFromItemPageTest_addItemToCartFromItemPage - 2021.03.14 at 18h 54m 36s.xml">
-      <configuration name="AddItemToCartFromItemPageTest.addItemToCartFromItemPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogInTest_SuccessfulLogInTest - 2021.03.14 at 18h 54m 45s.xml">
-      <configuration name="LogInTest.SuccessfulLogInTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogOutTest_LogOut - 2021.03.14 at 18h 55m 05s.xml">
-      <configuration name="LogOutTest.LogOut" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogOutTest_LogOut - 2021.03.14 at 18h 55m 34s.xml">
-      <configuration name="LogOutTest.LogOut" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogOutTest - 2021.03.14 at 18h 56m 37s.xml">
+    <history-entry file="LogOutTest - 2021.03.14 at 19h 10m 28s.xml">
       <configuration name="LogOutTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogOutTest - 2021.03.14 at 18h 57m 04s.xml">
+    <history-entry file="LogOutTest - 2021.03.14 at 19h 10m 50s.xml">
+      <configuration name="LogOutTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogOutTest - 2021.03.14 at 19h 11m 24s.xml">
+      <configuration name="LogOutTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogOutTest - 2021.03.14 at 19h 17m 39s.xml">
+      <configuration name="LogOutTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ui - 2021.03.14 at 19h 17m 51s.xml">
+      <configuration name="ui" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ui - 2021.03.14 at 19h 18m 40s.xml">
+      <configuration name="ui" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RemoveItemTest - 2021.03.14 at 19h 19m 19s.xml">
+      <configuration name="RemoveItemTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RemoveItemTest - 2021.03.14 at 19h 20m 02s.xml">
+      <configuration name="RemoveItemTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ui - 2021.03.14 at 19h 20m 45s.xml">
+      <configuration name="ui" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogOutTest - 2021.03.14 at 19h 21m 33s.xml">
       <configuration name="LogOutTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -633,7 +587,7 @@
     <frame x="0" y="28" width="1280" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.28029078" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.20678514" />
       <window_info id="Structure" order="1" sideWeight="0.5020408" side_tool="true" weight="0.27221325" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -647,7 +601,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.042735044" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32876712" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32876712" />
@@ -695,13 +649,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/helper/NavigationHelper.java" />
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/test/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/web_driver_manager.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.0.0-alpha-7/d49b4ae88bd9da8bbeb35c7865175ca957b48c6c/selenium-remote-driver-4.0.0-alpha-7-sources.jar!/org/openqa/selenium/remote/BrowserType.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -852,34 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/ui/steps/LogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/utils/UIHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding>
-            <marker date="1615737621392" expanded="true" signature="99:168" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/UITests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/ui/pageobjects/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -887,16 +806,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1001#1002#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -931,40 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/LogOutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/PlaceOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/RemoveItemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="90" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/FirefoxDriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -982,20 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/ChromeDriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/WebDriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/DriverType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1003,34 +864,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/utils/HelperBase.java">
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/DriverManagerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="272">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/LogOutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/WebDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/utils/ui/UIHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <marker date="1615742599280" expanded="true" signature="131:200" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-327">
+          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/DriversManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
             <element signature="e#666#667#0" expanded="true" />
             <element signature="e#708#709#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/DriverManagerFactory.java">
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/ui/steps/LogIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="119">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/utils/ui/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/UITests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/main/java/manager/ChromeDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/RemoveItemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-project /src/test/java/ui/PlaceOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>

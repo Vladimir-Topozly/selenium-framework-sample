@@ -1,13 +1,12 @@
 package ui;
 
-import manager.DriversManager;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import ui.pageobjects.CartPage;
 import ui.pageobjects.CheckoutPage;
 import ui.pageobjects.MainPage;
 
-public class PlaceOrderTest extends TestBase{
+public class PlaceOrderTest extends TestBase {
     @Test()
     public void paceOrderTest() {
         MainPage mainPage = new MainPage(driver);
