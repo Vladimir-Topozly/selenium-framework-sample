@@ -1,22 +1,28 @@
 package ui;
 
-import application_manager.ApplicationManager;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import utils.UIHelper;
 
 public class TestBase {
 
-    static ApplicationManager app =
-            new ApplicationManager();
+    UIHelper uiHelper = new UIHelper();
+    public String baseUrl = "https://www.saucedemo.com/";
+    WebDriver driver;
 
-    @BeforeMethod(alwaysRun = true)
+    @BeforeClass(alwaysRun = true)
     public void setUp() {
-        app.start();
+        uiHelper.start(baseUrl);
+        driver = uiHelper.driversManager.driver;
+//        uiHelper.navigateTo(baseUrl);
+//        logIn.doLogin();
+//        app.start();
     }
 
-    @AfterMethod(alwaysRun = true)
+    @AfterClass(alwaysRun = true)
     public void tearDown() {
-        app.cleanUp();
-        app.stop();
+        uiHelper.cleanUp();
+        uiHelper.stop();
     }
 }
