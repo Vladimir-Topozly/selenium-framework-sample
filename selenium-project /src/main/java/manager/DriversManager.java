@@ -17,7 +17,7 @@ public class DriversManager {
     // also make possible running it via CMD and setting Browser as a System property
 
     public void startDriver() {
-        driverManager = DriverManagerFactory.getDriverManager(DriverType.CHROME);
+        driverManager = DriverFactory.getDriverManager(DriverFactory.DriverType.CHROME);
         driver = driverManager.getDriver();
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         driver.manage().window().maximize();
