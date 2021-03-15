@@ -3,13 +3,11 @@ package utils.ui;
 import manager.DriversManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.remote.BrowserType;
 import ui.steps.LogIn;
 
 public class HelperBase {
 
-    public DriversManager driversManager =
-            new DriversManager(System.getProperty("browser", BrowserType.FIREFOX));
+    public DriversManager driversManager = new DriversManager();
 
     public void start(String url) {
         driversManager.startDriver();

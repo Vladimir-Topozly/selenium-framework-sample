@@ -3,7 +3,7 @@ package ui.pageobjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-public abstract class PageBase {
+abstract class PageBase {
     // TODO: create another constructor for the URL navigation (receives String url as a parameter)
 
     PageBase(WebDriver driver) {
@@ -12,7 +12,6 @@ public abstract class PageBase {
 
     PageBase(WebDriver driver, String url) {
         PageFactory.initElements(driver, this);
-
         driver.get(url);
     }
 }

@@ -3,7 +3,6 @@ package ui.pageobjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -49,7 +48,7 @@ public class MainPage extends PageBase implements IItem {
         }
     }
 
-    public void openCart(){
+    public void openCart() {
         this.cartButton.click();
     }
 }
